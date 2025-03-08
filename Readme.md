@@ -18,7 +18,7 @@
 1. **Clone the Repository:**
    ```sh
    git clone https://github.com/L200160149/coding-test-nodejs-nutech-integrasi.git
-   cd your-repo-folder
+   cd coding-test-nodejs-nutech-integrasi
    ```
 2. **Copy and Configure the Environment File:**
    ```sh
