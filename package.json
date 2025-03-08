@@ -1,0 +1,44 @@
+{
+  "name": "coding-test-nodejs-programmer",
+  "version": "1.0.0",
+  "description": "Coding test for a NodeJS Programmer position at Nutech Integrasi",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L200160149/coding-test-nodejs-nutech-integrasi.git"
+  },
+  "author": "Supriadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L200160149/coding-test-nodejs-nutech-integrasi/issues"
+  },
+  "homepage": "https://github.com/L200160149/coding-test-nodejs-nutech-integrasi#readme",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "decimal.js": "^10.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.13.0",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
